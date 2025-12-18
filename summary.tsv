@@ -1,0 +1,16 @@
+﻿Test	URL	Sure	HTTP	Bytes
+test01	https://lms.ktun.edu.tr/my/iletisim.php	132ms	404	153
+test02	https://www.ktun.edu.tr/tr/Universite/AnaSayfa/	1.386s	200	171411
+test03	https://www.ikea.com.tr/	195ms	200	173756
+test04	https://yildizcti.com/	400ms	200	20868
+test05	https://www.kitapyurdu.com/	450ms	200	155187
+test06	https://skribbl.io/	521ms	200	21665
+test07	https://www.kraloyun.com/	359ms	200	218615
+test08	https://www.osym.gov.tr/	219ms	200	349273
+test09	https://yokatlas.yok.gov.tr/index.php	208ms	200	22984
+test10	https://beinsports.com.tr/	386ms	200	896434
+test11	https://www.nefisyemektarifleri.com/	292ms	200	294308
+test12	https://www.elazig.bel.tr/	1.045s	200	856297
+test13	https://www.mgm.gov.tr/	234ms	200	579907
+test14	https://www.obilet.com/	347ms	200	413993
+test15	https://www.ua.gov.tr/	226ms	200	69981

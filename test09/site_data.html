@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Yükseköğretim Program Atlası</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="http://yokatlas.yok.gov.tr/assets/img/YPA-logo.jpg"/>
+<meta property="og:title" content="Yükseköğretim Program Atlası" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/blitzer/jquery-ui.css"/> 
+<link rel="stylesheet" href="assets/css/bootstrap-select.css">
+<script src="assets/js/bootstrap-select.js"></script>
+<script src="assets/js/i18n/defaults-tr_TR.min.js"></script>
+<script src="assets/js/mamut-js.js"></script>
+﻿<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-74941122-1', 'auto');
+  ga('send', 'pageview');
+ 
+</script></head>
+<body>
+﻿<script>console.log('atlas23');</script><script type="text/javascript">
+$( document ).ready(function() {
+      $('ul.nav li.dropdown').hover(function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    }, function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    });
+});
+</script>
+<style>
+@media print {
+   a[href]:after {
+      display: none;
+      visibility: hidden;
+   }
+}
+</style>
+
+    <nav class="navbar navbar-default navbar-fixed-top" style="padding:0px;">
+      <div class="container">
+        <div class="navbar-header"> 
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Navigasyon</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">
+          <img src="assets/img/layout_set_logo.png" height="46" style="margin-top:-12px" />
+          </a>
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+		  <li ><a href="universite.php">Üniversitelerimiz</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program Atlası<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li ><a href="lisans-anasayfa.php">Lisans Atlası</a></li>
+                <li ><a href="onlisans-anasayfa.php">Önlisans Atlası</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tercih Sihirbazı <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li ><a href="tercih-sihirbazi-t4-tablo.php">Lisans Tercih Sihirbazı</a></li>
+                <li ><a href="tercih-sihirbazi-t3-tablo.php">Önlisans Tercih Sihirbazı</a></li>
+              </ul>
+            </li>
+			
+            <li ><a href="mezun-basari-atlasi.php">Mezun Başarı Atlası</a></li>
+            <li ><a href="netler.php">Net Sihirbazı</a></li>
+			<li ><a href="meslek-anasayfa.php">Meslek Atlası</a></li>
+			<li ><a href="uye_girisi.php">Tercih Listem</a></li>
+		<!--	<li ><a href="dgs-anasayfa.php">DGS Atlası</a></li> -->
+			
+            <!--<li ><a href="basari-sirasi.php">Başarı Sırası</a></li>-->
+           </ul>
+
+	     <form class="navbar-form" onsubmit="return false;">
+        <div class="form-group" style="display:inline;">
+          <div class="input-group" style="display:table;">
+            <input class="form-control pull-right" name="search" id="search" placeholder="Ara" autocomplete="off" autofocus="autofocus" type="text" style="max-width:440px;" title="Arama yapmak için, arama kutucuğuna en az 5 karakter girin ve sonuçlardan birini seçin">
+            <span class="input-group-addon" style="width:1%;"><span class="glyphicon glyphicon-search" title="Arama yapmak için, arama kutucuğuna en az 3 karakter girin ve sonuçlardan birini seçin" onclick="alert('Arama yapmak için, arama kutucuğuna en az 5 karakter girin ve sonuçlardan birini seçin');"></span></span>
+          </div>
+        </div>
+      </form>
+        </div>
+      </div>
+    </nav>
+<div class="row">
+    <div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">         
+			<span class="pull-left panel-logo2"><img src="assets/img/ypa_b.png" width="24" /></span>                      
+                       <h1 class="panel-title">&nbsp;<strong>Yükseköğretim Program Atlası</strong></h1>          
+                       <p style="font-family: georgia;text-align: right;font-style: italic; font-size: 20; margin-bottom:-5px" align="right"><strong>Öğrenci dostu YÖK Tercihlerinizde Sizinle</strong></p>               
+        </div>
+    </div>
+</div>
+
+<div class="row">
+<div class="container">
+ 
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="7000" data-ride="carousel">
+        <!-- <ol class="carousel-indicators">
+            <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+            <!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
+            <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+       <!-- </ol> -->
+        <div class="carousel-inner">
+		<div class="active item"> 
+                <img src="assets/img/banners/yks-bilgileri-eklendi_2025.jpg" alt="1">
+                <div class="carousel-caption">
+                  <h3></h3>
+                  <p></p>
+                </div>
+            </div>
+			<!--	<div class="item">
+				 <a href="baskanin-mesaji.php" target="_blank">
+					<img src="assets/img/banners/slide1.jpg" alt="2">
+					<div class="carousel-caption">
+					  <h3></h3>
+					  <p></p>
+					</div>
+				</a>
+            </div> -->
+		<!-- <div class="item">
+				<a href="universite.php" target="_blank">
+					<img src="assets/img/banners/YOK_Atlas_Yenilikler_2021.jpg" alt="3">
+					<div class="carousel-caption">
+					  <h3></h3>
+					  <p></p>
+					</div>
+				</a>
+            </div> -->
+		    
+		
+            <!-- <div class="item">
+				<a href="https://www.yok.gov.tr/Documents/Ogrenci/BursDokuman/yok-destek-bursu-usul-esaslar.pdf" target="_blank">
+					<img src="assets/img/banners/yokburs_2023.jpg" alt="5">
+					<div class="carousel-caption">
+					  <h3></h3>
+					  <p></p>
+					</div>
+				</a>
+            </div> -->
+        </div>
+		<!-- <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a> -->
+    </div>
+</div>
+</div>
+			  
+     </div>
+	 <br><br>
+<div class="row"> 
+<div class="container">
+<div class="col-sm-4">
+<a href="universite.php">
+<div class="panel panel-primary">
+<!--- <div class="panel-heading">YÖK Lisans Atlası</div> -->
+<div class="panel-body">
+<img src="assets/img/universitelerimiz.png" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="Üniversitelerimiz"/>
+</div>
+</div>
+</a>
+</div>
+<div class="col-sm-8">
+<a href="universite.php">
+<div class="panel panel-primary">
+<!---<div class="panel-heading">YÖK Lisans Atlası</div> --> 
+<div class="panel-body anayazi" style="color:#408080">
+<p><big><strong>“Üniversitelerimiz” modülüyle seçeceğiniz üniversite hakkında bilgi almak artık çok kolay...</strong></big></p>
+<p>Üniversitelerimiz Modülünde, Türkiye’deki her bir üniversitenin öğrenci ve öğretim elamanı sayılarının yanında kuruluş yılı, resmi web sitesi, sosyal medya linkleri, iletişim bilgileri, spor tesisleri, spor takımları, öğrenci toplulukları, yurt kapasitesi, laboratuvar sayıları ve yüzölçümleri bilgilerine erişebileceksiniz.
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>	 
+	 
+<div class="row"> 
+<div class="container">
+<div class="col-sm-4">
+<a href="lisans-anasayfa.php">
+<div class="panel panel-primary">
+<!--- <div class="panel-heading">YÖK Lisans Atlası</div> -->
+<div class="panel-body">
+<img src="assets/img/LisansAtlasi.png" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="YÖK Lisans Atlası"  />
+</div>
+</div>
+</a>
+</div>
+<div class="col-sm-8">
+<a href="lisans-anasayfa.php">
+<div class="panel panel-primary">
+<!---<div class="panel-heading">YÖK Lisans Atlası</div> --> 
+<div class="panel-body anayazi" style="color:#005c8d">
+<p><big><strong>Lisans programlarına yerleşenlerin puanları, başarı sıraları, YKS netleri, geldikleri liseler, geldikleri bölgeler; programda görevli öğretim üyeleri, yabancı uyruklu öğrenciler, Erasmus trafiği ve benzeri pek çok detay parmaklarınızın ucunda...</strong></big></p>
+<p>YKS'de Merkezi Yerleştirme ile öğrenci alan lisans programlarının (fakülte/yüksekokul) detayları burada yer almaktadır.
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+ 
+<div class="row">
+<div class="container">
+<div class="col-sm-4">
+<a href="onlisans-anasayfa.php">
+<div class="panel panel-danger">
+<div class="panel-body">
+<img src="assets/img/OnlisansAtlasi.png" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="YÖK Önlisans Atlası"  />
+</div>
+</div>
+</a>
+</div>
+<div class="col-sm-8">
+<a href="onlisans-anasayfa.php">
+<div class="panel panel-danger">
+<!-- <div class="panel-heading">YÖK Lisans Atlası</div> -->
+<div class="panel-body anayazi" style="color:#c4202e">
+<p><big><strong>Önlisans programlarına yerleşenlerin puanları, YKS netleri, geldikleri liseler, mezun oldukları lise alan ve dalları; programda görevli öğretim üyeleri, geçmiş yıllarda verilen mezun sayısı, yatay geçiş trafiği ve benzeri pek çok detaya tek bir “tık” ile ulaşın...</strong></big></p>
+<p>YKS'de Merkezi Yerleştirme ile öğrenci alan önlisans programlarının (meslek yüksekokulu) detayları burada yer almaktadır.
+<!--</p>
+</div>-->
+</div>
+</a>
+</div>
+</div>
+</div>
+
+<div class="row">
+			<div class="container">
+				<div class="col-sm-4">
+		<a href="tercih-sihirbazi-t4.php">
+			<div class="panel panel-danger" style="border-color:#00bcd6">
+			  <div class="panel-body">
+				<img src="assets/img/LisansTercihSihirbazi.png" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="YÖK Lisans Tercih Sihirbazı "  />
+			  </div>
+			</div>
+		</a>
+			</div>
+				<div class="col-sm-8">
+		<a href="tercih-sihirbazi-t4.php">
+			<div class="panel panel-danger" style="border-color:#00bcd6">
+			  <div class="panel-body anayazi" style="color:#00bcd6">
+		<p><big><strong>2025 YKS ile öğrenci alan lisans programlarının kontenjan bilgilerine buradan ulaşabilirsiniz.</big></strong></p>
+		<p>Son 4 yılın taban başarı sıraları, puan türü değişen programların eski puan türündeki taban başarı sıraları, şehre, üniversite türüne, burs oranlarına, öğretim türüne göre arama yapma imkanı…</p>
+		<marquee height='18px'><font color='#CC0000'><b>Bilgiler 2025-YKS Yükseköğretim Programları ve Kontenjanları Kılavuzu'ndan derlenmiş olup, nihai kontrollerinizi ÖSYM'nin internet sitesindeki 2025-YKS Yükseköğretim Programları ve Kontenjanları Kılavuzu'ndan yapmanız uygun olacaktır.</b></font></marquee>			 </div> 
+			</div>
+		</a>
+			</div>
+			 </div>
+			 </div>
+				<div class="row">
+					<div class="container">
+						<div class="col-sm-4">
+				<a href="tercih-sihirbazi-t3.php">
+					<div class="panel panel-danger" style="border-color:#e91e63">
+					  <div class="panel-body">
+						<img src="assets/img/OnLisansTercihSihirbazi.png" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="YÖK ÖnLisans Tercih Sihirbazı "  />
+					  </div>
+					</div>
+				</a>
+					</div>
+						<div class="col-sm-8">
+				<a href="tercih-sihirbazi-t3.php">
+					<div class="panel panel-danger" style="border-color:#e91e63">
+					  <div class="panel-body anayazi" style="color:#e91e63">
+				<p><big><strong>2025 YKS ile öğrenci alan önlisans programlarının kontenjan bilgilerine buradan ulaşabilirsiniz.</big></strong></p>
+				<p>Son 2 yılın taban başarı sıraları, puan türü değişen programların eski puan türündeki taban başarı sıraları, şehre, üniversite türüne, burs oranlarına, öğretim türüne göre arama yapma imkanı…</p>
+				<marquee height='18px'><font color='#CC0000'><b>Bilgiler 2025-YKS Yükseköğretim Programları ve Kontenjanları Kılavuzu'ndan derlenmiş olup, nihai kontrollerinizi ÖSYM'nin internet sitesindeki 2025-YKS Yükseköğretim Programları ve Kontenjanları Kılavuzu'ndan yapmanız uygun olacaktır.</b></font></marquee>				</div>
+					</div>
+				</a>
+					</div>
+					 </div>
+					 </div>  
+ 
+ <div class="row">
+    <div class="container">
+        <div class="col-sm-4">
+<a href="mezun-basari-atlasi.php">
+    <div class="panel panel-danger" style="border-color:#f57c00">
+      <div class="panel-body">
+        <img src="assets/img/MezunBasariAtlasi.png" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="YÖK Mezun Başarı Atlası "  />
+      </div>
+    </div>
+</a>
+    </div>
+        <div class="col-sm-8">
+<a href="mezun-basari-atlasi.php">
+    <div class="panel panel-danger" style="border-color:#f57c00">
+      <div class="panel-body anayazi" style="color:#f57c00">
+<p><big><strong><!--2025--> Tercih Kılavuzu’nda yer alan lisans programlarından mezun olanların merkezi uzmanlık
+sınavlarında gösterdikleri başarıyı görün değerlendirin. Sadece girdi değil, çıktı kalitesini de sınayın…</big></strong></p>
+<p>Mezunların KPSS-1, KPSS-2, TUS-TT1, TUS-TT2, TUS-KTP, DUS, AB-AYB sınav başarılarını değerlendirebilirsiniz.</p>
+</p>
+      </div>
+    </div>
+</a>
+    </div>
+     </div>
+     </div>
+	 
+<div class="row">
+<div class="container">
+<div class="col-sm-4">		
+<a href="netler.php">
+<div class="panel panel-success">
+<div class="panel-body">
+<img src="assets/img/NetSihirbazi.png" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="TYT-AYT Net Sihirbazı"  />
+</div>
+</div>
+</a>
+</div>
+<div class="col-sm-8">
+<a href="netler.php">
+<div class="panel panel-success">
+<div class="panel-body anayazi" style="color:#43b46f">
+<p><big><strong>Hedefinizdeki meslek ve üniversiteye geçen sene yerleşenlerin YKS'deki başarısını görmek ve sizi hedefe ulaştıracak en doğru verilere ulaşmak artık çok kolay.  Tıklayın...</strong></big></p>
+<p><!--2024--> YKS'de Merkezi Yerleştirme ile öğrenci alan lisans - önlisans programlarına yerleşenlerin TYT-AYT testlerinde yaptıkları yerleşen son kişinin Netleri burada yer almaktadır.
+<!--</p>
+</div>-->
+</div>
+</a>
+</div>
+</div>
+<!------- TEST
+<img src="assets/img/layout_set_logo.png" style="filter: hue-rotate(105deg) saturate(78.5%) brightness(88%) opacity(40%);">
+<img src="assets/img/layout_set_logo.png" style="filter: hue-rotate(262deg) saturate(24.5%) brightness(77%) opacity(50%);">
+------------->
+</div>
+
+
+
+    <!--<div class="row">
+			 <div class="container">
+			   <div class="col-sm-4">
+				<a href="basari-sirasi.php">
+					<div class="panel panel-danger" style="border-color:#9e3995">
+					  <div class="panel-body">
+						<img src="assets/img/BasariSirasi.jpg" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="YÖK Başarı Sırası Sihirbazı"  />
+					  </div>
+					</div>
+				</a>
+				</div>-->
+				<!--<div class="col-sm-8">
+					<a href="basari-sirasi.php">
+						<div class="panel panel-danger" style="border-color:#9e3995">
+						  <div class="panel-body anayazi" style="color:#9e3995">
+					<p><big><strong>Hedeflediğiniz programlara geçen sene yerleşenlerin YGS ve LYS’deki ilgili puan türünde kaçıncı sırada olduğunu görmek, 2017 YGS ve LYS’de ilgili puan türü başarı sıranızı, geçen sene o programa girenlerin YGS ve LYS ilgili puan türü başarı sıraları ile kıyaslamak mümkün oluyor...</strong></big></p>
+					<p>2015 ve 2016 ÖSYS'de LYS puanları ile öğrenci alan lisans programlarına yerleşenlerin YGS ve LYS başarı sırası ortalamaları ile yerleşenler arasında en düşük YGS ve LYS ilgili puan türü başarı sırası bilgileri burada yer almaktadır.
+					</p>
+						  </div>
+						</div>
+					</a>
+				</div>
+			 </div>
+     </div>-->
+	     
+	 
+<div class="row" id="meslek">
+    <div class="container">
+        <div class="col-sm-4">		
+ <a href="meslek-anasayfa.php">
+    <div class="panel panel-danger" style="border-color:#bf00bf">
+      <div class="panel-body">
+        <img src="assets/img/MeslekTercihRaporu.png" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="2018 YKS Meslek Tercihleri Raporu "  />
+      </div>
+    </div>
+</a>
+    </div>
+        <div class="col-sm-8">
+ <a href="meslek-anasayfa.php">
+    <div class="panel panel-danger" style="border-color:#bf00bf">
+      <div class="panel-body anayazi" style="color:#bf00bf">
+<p><big><strong>Üniversite adaylarının meslek seçimine ışık tutacak tercih istatistiklerine buradan ulaşabilirsiniz.</big></strong></p>
+<p><!--2024--> YKS'de mesleklerin tercih edilme istatistiklerini inceleyerek hangi mesleklerin daha çok tercih edildiğini değerlendirebilirsiniz.</p>
+</p>
+      </div>
+    </div>
+</a>
+    </div>
+     </div>
+     </div>
+	 
+<div class="row">
+    <div class="container">
+        <div class="col-sm-4">		
+ <a href="tercihlistem.php">
+    <div class="panel panel-danger" style="border-color:#9f0f02">
+      <div class="panel-body">
+        <img src="assets/img/TercihListem.png" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="Tercih Listem "  />
+      </div>
+    </div>
+</a>
+    </div>
+        <div class="col-sm-8">
+ <a href="tercihlistem.php">
+    <div class="panel panel-danger" style="border-color:#9f0f02">
+      <div class="panel-body anayazi" style="color:#9f0f02">
+<p><big><strong>YKS tercihlerinize ışık tutacak tercih listenizi buradan oluşturabilirsiniz.</big></strong></p>
+<p>Adaylar üniversite ve program seçimlerini yaparak tercih listelerini oluşturabilirler. Tercih listelerindeki programları sıralayabilir, koşul ve diğer bilgilerini görerek kendi durumlarını değerlendirebilirler.</p>
+</p>
+      </div>
+    </div>
+</a>
+    </div>
+     </div>
+     </div>
+    <div class="modal fade text-center" id="myModal" tabindex="-1" role="dialog" aria-labelledby="temizleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-popup" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<a href="https://sanalfuar.yok.gov.tr" target="_blank"><img class="img-responsive" src="assets/img/fuar_popup_2021.png"></a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+				</div>
+			</div>
+		</div>
+	</div> 
+	 
+	 
+<!-- <div class="row">
+    <div class="container">
+        <div class="col-sm-4">		
+ <a href="dgs-anasayfa.php">
+    <div class="panel panel-danger" style="border-color:#999900">
+      <div class="panel-body">
+        <img src="assets/img/DGSAtlasi2019.png" style="height:100%; max-height:90px; width:100%; max-width:300px;" alt="DGS Atlası "  />
+      </div>
+    </div>
+</a>
+    </div>
+        <div class="col-sm-8">
+ <a href="dgs-anasayfa.php">
+    <div class="panel panel-danger" style="border-color:#999900">
+      <div class="panel-body anayazi" style="color:#999900">
+<p><big><strong>2019 DGS ile ön lisans mezuniyet alanlarına göre lisans programlarına yerleşenlerin puanları, başarı sıraları, geldikleri Meslek Yüksekokulları ve pek çok detay bilgiler parmaklarınızın ucunda</big></strong></p>
+<p>2019 DGS'de Merkezi Yerleştirme ile öğrenci alan lisans programlarının (fakülte/yüksekokul) detayları burada yer almaktadır.</p>
+</p>
+      </div>
+    </div>
+</a>
+    </div>
+     </div>
+     </div>	 -->
+	 
+</div>
+
+
+<!-- Body -->
+<!-- Footer -->
+﻿<footer class="footer">
+	<div class="container">
+		<table style="width: 100%; border: 0">
+			<tr>
+				<td width="33%">
+					<p class="text-muted pull-left" align="left">
+						<small>Bize Önerilerinizi İletebilirsiniz:<br> <a href="mailto:yokatlas@yok.gov.tr">yokatlas@yok.gov.tr</a></small>
+					</p>
+				</td>
+				<td align="center" width="33%">
+					<p class="text-muted pull-left" align="center">
+						<!--<small>Girdi Göstergelerindeki bilgiler ÖSYM'den 2016, 2017, 2018 ve 2019 Ağustos ayında alınan verilerden derlenmiştir.<br></small>-->
+					<!-- <small>Girdi Göstergelerindeki bilgiler ÖSYM'den alınan verilerden derlenmiştir.<br></small> -->
+					</p>
+				</td>
+				<td width="33%">
+					<p class="text-muted pull-right" align="right">
+						<small>Yükseköğretim Program Atlası<br> <span title="&copy; Yükseköğretim Kurulu Bilgi İşlem Daire Başkanlığı">&copy;<a href="http://www.yok.gov.tr" target="_blank">Yükseköğretim Kurulu</a> Bilgi İşlem Daire Başkanlığı </span></small>
+					</p>
+				</td>
+			</tr>
+		</table>
+	</div>
+</footer>
+<span id="top-link-block" class="hidden"> <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;"> <i class="glyphicon glyphicon-chevron-up"></i> Yukarı Çık </a> </span>
+<!-- Footer -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script>
+/*
+$(document).ready(function(){
+    
+	if (!sessionStorage.getItem('shown-modal')){
+		$("#myModal").modal('show');	
+		sessionStorage.setItem('shown-modal', 'true');
+    }
+  
+ 
+    });
+*/
+</script>
+</body>
+
+</html>
